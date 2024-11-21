@@ -4,13 +4,11 @@ This project is a lightweight search engine developed using Flask as the web fra
 ## Key Features:
 Lucene Integration via PyLucene:
 
-PyLucene, a Python wrapper for Apache Lucene, provides robust full-text search and indexing capabilities.
-Supports powerful querying with Boolean, Phrase, Fuzzy, and Range queries.
+### PyLucene: 
+Used for Indexing
 Web Interface with Flask:
 
-Flask provides a minimal and intuitive interface for users to input queries and view results.
-The interface supports real-time search and pagination of results.
-Indexing System:
+### Flask
 
 Handles text data parsing and stores documents in Lucene's index format for optimized searching.
 Includes methods for updating and rebuilding the index as data changes.
@@ -26,7 +24,9 @@ Creating searchable document repositories.
 Building custom search tools for websites or applications.
 Learning about integrating search technology with Python.
 
-#Tech Stack:
+## Tech Stack:
 Backend: Flask 
+
 Search Engine: PyLucene 
+
 Frontend: HTML, CSS, JavaScript
