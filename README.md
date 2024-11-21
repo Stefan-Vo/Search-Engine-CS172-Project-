@@ -25,3 +25,8 @@ Use Cases:
 Creating searchable document repositories.
 Building custom search tools for websites or applications.
 Learning about integrating search technology with Python.
+
+#Tech Stack:
+Backend: Flask 
+Search Engine: PyLucene 
+Frontend: HTML, CSS, JavaScript
